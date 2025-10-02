@@ -1,0 +1,71 @@
+Junior QA Engineer, Frontend Developer
+Aspiring QA Engineer and Frontend Developer and Freelancer.
+
+Work experience:
+
+Kromevye Co
+Managed export sales of stainless steel kitchen sinks to the Russian market.
+
+Represented the company at international trade fairs and exhibitions.
+
+Built and maintained strong relationships with clients and distributors in Russia.
+
+Prepared sales reports and coordinated with logistics for timely deliveries.
+
+Conducted market research to identify new business opportunities.
+
+Safi-Trade LTD
+Tekstil ve iş kıyafetleri ürünlerinin Rusya pazarına ihracat satışlarını yönettim. Sektör fuarlarında, sergilerde ve ticaret etkinliklerinde firmamı temsil ettim. Sipariş, üretim takvimi ve lojistik süreçlerini koordine ederek zamanında teslimat sağladım. Tekstil sektöründe yeni satış fırsatlarını ve trendleri belirlemek için pazar araştırmaları yaptım.
+
+Managed export sales of textile and workwear products to the Russian market.
+
+Represented the company at industry fairs, exhibitions, and trade events.
+
+Coordinated orders, production schedules, and logistics to ensure timely delivery.
+
+Conducted market research to identify new sales opportunities and trends in the textile sector.
+
+Prepared sales reports and performance analyses for management.
+
+********
+Bounding box, segmentation, classification, tagging methods
+
+Basic data processing with Excel/Google Sheets
+
+Quality control (QA) processes in compliance with guideline documents
+
+********************
+
+Managing the existing customer portfolio
+
+Achieving sales targets and preparing reports
+
+Analyzing customer needs
+
+Following up on customer satisfaction after sales
+
+Handling quotation, contract, and order processes
+
+Resolving customer complaints and requests
+
+Coordinating logistics processes and ensuring product delivery
+
+*****************************************************************
+
+Validatorla ilgili notlar:
+
+HTML’de içeriği olmayan elementlere void element denir. Örneğin:
+
+<meta>
+
+<link>
+
+<img>
+
+<input>
+
+<br>
+
+<hr>
+
+Bu elementlerin kapanış etiketi yoktur ve HTML5 standardında sonunda / yazmak artık gerekli değildir.
