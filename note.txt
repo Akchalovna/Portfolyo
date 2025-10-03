@@ -69,3 +69,8 @@ HTML’de içeriği olmayan elementlere void element denir. Örneğin:
 <hr>
 
 Bu elementlerin kapanış etiketi yoktur ve HTML5 standardında sonunda / yazmak artık gerekli değildir.
+
+TERMINAL:
+git add .
+git commit -m "Yaptığın değişikliklerin kısa açıklaması"
+git push
