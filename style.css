@@ -1,30 +1,54 @@
 /*General settings*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-#header {
+/**HEADER*/
+
+.header {
+  color: #efeaea;
+  position: fixed; /*sabit*/
   top: 0;
   left: 0;
   bottom: 0;
+  width: 300px; /*sidebar genişlik*/
+  height: 919px;
   padding: 0 15px;
-  width: 300px;
-  position: fixed;
-  z-index: 997;
-  overflow: auto;
-  border-right: 1px solid;
-  box-sizing: border-box;
   display: flex;
-  float: none;
-  line-height: 24px;
-}
-.header-side.header-show {
-  left: 0;
-}
-#hero {
-  width: 100%;
-  min-width: 100vh;
-  position: relative;
-  padding: 80px 0;
-  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  line-height: 24px;
+  overflow-y: auto; /* İçerik taşarsa kaydır */
+  z-index: 997; /* Önde gözüksün */
+}
+/* Sidebar Renk Teması */
+.dark-background {
+  background-color: #141517;
+}
+
+/* PROFİLE PHOTO */
+.profile-img img {
+  border-radius: 50% !important;
+  width: 120px;
+  margin: 15px auto;
+  display: block;
+  border: 8px solid;
+}
+
+/*Logo-name*/
+.logo {
+  line-height: 1;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+.sitename {
+  font-size: 24px;
   margin: 0;
+  padding: 0;
+  font-weight: 700;
+  color: #ffffff;
 }
