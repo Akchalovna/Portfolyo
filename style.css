@@ -33,10 +33,11 @@
 /* PROFİLE PHOTO */
 .profile-img img {
   border-radius: 50% !important;
-  width: 120px;
+  width: 150px;
   margin: 15px auto;
   display: block;
-  border: 8px solid;
+  border: 9px solid;
+  color: #343a40;
 }
 
 /*Logo-name*/
@@ -45,10 +46,74 @@
   margin-bottom: 15px;
   text-decoration: none;
 }
-.sitename {
+.site-name {
   font-size: 24px;
   margin: 0;
   padding: 0;
   font-weight: 700;
   color: #ffffff;
+}
+
+.social-links a {
+  margin: 0 15px 20px 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  background-color: #343a40; /* Normal renk */
+}
+.social-links a:hover {
+  background-color: rgb(42, 106, 179); /* Üzerine gelince mavi */
+  transform: scale(1.1); /* Hafif büyüme */
+  opacity: 1; /* Renk tamamen görünür */
+}
+
+/*NAV*/
+.nav-menu {
+  padding: 0;
+  margin: 0;
+}
+.nav-ul {
+  padding: 0 0 20px 0;
+  box-sizing: border-box;
+  width: 260px;
+  height: 440px;
+  list-style: none;
+}
+
+.nav-menu a {
+  padding: 15px 10px;
+  font-size: 20px;
+  font-weight: 400px;
+  display: flex;
+  align-items: center;
+  white-space: space nowrap;
+  transition: 0.3s;
+  width: 100%;
+  text-decoration: none;
+  color: #a8a9b4;
+  font-family: var(--default-font);
+}
+
+.navicon {
+  margin-right: 10px;
+}
+
+:root {
+  --default-font: "Arial", sans-serif;
+}
+
+.nav-menu a:hover {
+  background-color: transparent; /* Dilersen arka plan ekleyebilirsin */
+  color: white; /* Yazı hover'da beyaz olsun */
+}
+
+.nav-menu a:hover i {
+  color: rgb(42, 106, 179); /* İkon hover'da mavi olsun */
 }
