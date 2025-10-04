@@ -6,6 +6,7 @@ This project is a responsive landing page created to showcase my frontend skills
 - HTML
 - CSS
 - JavaScript
+- Bootstrap
 
 ## How to Run
 1. Clone the repository
